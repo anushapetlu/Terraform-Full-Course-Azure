@@ -86,3 +86,9 @@ terraform -install-autocomplete
 alias tf=terraform
 terraform -version
 ```
+### install terraform for windows
+--select amd64 file and extract it.
+-- copy the terraform.exe file and place it in a folder.
+-- Now copy the path where you placed the exe.
+--open environment variables, open path in system variable and add this tf path.
+--now in terminal/gitbash/ps console, check for terraform --versiom
