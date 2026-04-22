@@ -32,3 +32,4 @@ export ARM_CLIENT_SECRET=""
 export ARM_SUBSCRIPTION_ID=""
 export ARM_TENANT_ID=""
 ```
+note: you might get error as export is not recognized error when you are running this in vs code powershell terminal. so make sure you are in linux or git bash then you will not face this error.
