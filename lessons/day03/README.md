@@ -14,6 +14,10 @@
 - az login
 ```
 
+error: incase if you are logging first time and it doesnt show the browser to login then use below. this opens the browser and it gives a code just paste it in the browser when it asks for creds. It will work
+
+az login --use-device-code
+
 - Create Service Principal 
 ```
 az ad sp create-for-rbac -n az-demo --role="Contributor" --scopes="/subscriptions/$SUBSCRIPTION_ID"
